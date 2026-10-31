@@ -4,13 +4,20 @@ Track your EXP gained, EXP per hour, and estimated time to your next level in Ma
 
 ## Download the full Windows app
 
-### [Download MSClassicExpTracker-1.0.2-windows-x64.zip (about 63 MB)](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/download/v1.0.2/MSClassicExpTracker-1.0.2-windows-x64.zip)
+### [Download MSClassicExpTracker-1.0.5-windows-x64.zip (about 63 MB)](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/download/v1.0.5/MSClassicExpTracker-1.0.5-windows-x64.zip)
 
 [View the latest release](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/latest)
 
 The full app is in the ZIP linked above, including Python and its required Python packages. No GitHub account is required.
 
 **Do not use the green Code → Download ZIP button or the Source code downloads.** Those download this repository's documentation, not the Windows app. On a release page, choose the asset whose name starts with `MSClassicExpTracker-` and ends with `-windows-x64.zip`. You do not need to download `update.json` or `update.json.sig` manually.
+
+## Latest changes — 1.0.5
+
+- Improved reading of small HUDs and spaced level digits, including the level-19 case.
+- Tracking continues if session saving fails; a warning explains the save problem.
+- Conflicting EXP readings are rejected before updating session estimates.
+- If an earlier session stopped after inconsistent readings, click **New session**. The EXP bar appears after a valid reading; time to next level needs measured EXP gains.
 
 ## Requirements
 
