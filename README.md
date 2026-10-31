@@ -4,7 +4,7 @@ Track your EXP gained, EXP per hour, and estimated time to your next level in Ma
 
 ## Download the full Windows app
 
-### [Download MSClassicExpTracker-1.0.1-windows-x64.zip (about 63 MB)](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/download/v1.0.1/MSClassicExpTracker-1.0.1-windows-x64.zip)
+### [Download MSClassicExpTracker-1.0.2-windows-x64.zip (about 63 MB)](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/download/v1.0.2/MSClassicExpTracker-1.0.2-windows-x64.zip)
 
 [View the latest release](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/latest)
 
