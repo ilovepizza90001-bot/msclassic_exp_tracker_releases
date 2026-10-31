@@ -4,7 +4,7 @@ Track your EXP gained, EXP per hour, and estimated time to your next level in Ma
 
 ## Download the full Windows app
 
-### [Download MSClassicExpTracker-1.0.0-windows-x64.zip (about 63 MB)](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/download/v1.0.0/MSClassicExpTracker-1.0.0-windows-x64.zip)
+### [Download MSClassicExpTracker-1.0.1-windows-x64.zip (about 63 MB)](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/download/v1.0.1/MSClassicExpTracker-1.0.1-windows-x64.zip)
 
 [View the latest release](https://github.com/ilovepizza90001-bot/msclassic_exp_tracker_releases/releases/latest)
 
@@ -37,6 +37,17 @@ The full app is in the ZIP linked above, including Python and its required Pytho
 ## Updates
 
 The app checks for updates at startup. You can also click **Updates** in the tracker. You choose when to download and restart. Update downloads are verified using signed metadata and a SHA-256 checksum. Keep the original extracted app folder; its launcher opens your installed update.
+
+## HUD calibration (version 1.0.1)
+
+Automatic detection now supports more HUD sizes and preserves tinted/softened digits. If reading still fails:
+
+1. Click **Start**, return to the foreground game, and wait at least 10 seconds so the tracker has a captured frame.
+2. Click **Calibrate HUD** in the tracker.
+3. Draw a tight box around the **level digits only**, then a second box around the **current EXP digits only**. Exclude the EXP label, brackets, and percentage.
+4. Return to the game and wait for the next reading.
+
+Only region coordinates are saved locally, not screenshots. Click **Auto** to clear the calibration. Recalibrate after a HUD layout or game aspect-ratio change. This expands compatibility but does not guarantee every layout.
 
 ## Troubleshooting
 
